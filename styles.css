@@ -1,0 +1,286 @@
+.header1 {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: blueviolet;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+.first-section {
+  display: flex;
+  color: white;
+
+  font-size: 20px;
+  align-items: center;
+}
+.second-section {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+.third-section {
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  flex: 1;
+  height: 33px;
+  border-color: gray;
+  border: none;
+  border-radius: 2px;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
+}
+.search-button {
+  width: 27px;
+  height: 27px;
+  margin-left: -5px;
+  margin-right: 6px;
+}
+.fourth-section {
+  display: flex;
+  color: white;
+  font-size: 20px;
+
+  align-items: center;
+  margin-right: 0;
+}
+.fifth-section {
+  display: flex;
+  color: white;
+
+  font-size: 20px;
+  align-items: center;
+  margin-right: 0;
+}
+.sixth-section {
+  display: flex;
+  color: white;
+
+  font-size: 20px;
+  align-items: center;
+  margin-right: 0;
+}
+.user-icon {
+  display: flex;
+  width: 27px;
+  height: 27px;
+  border-radius: 14px;
+  margin-top: 14px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.subhead {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  background-color: wheat;
+  border-bottom-width: 1px;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
+}
+.header2 ul {
+  display: inline-flex;
+  list-style: none;
+  color: black;
+  position: fixed;
+  margin-bottom: 30px;
+}
+.header2 ul li {
+  width: 70px;
+  height: 25px;
+  margin: 9px;
+  padding: 9px;
+  color: black;
+}
+
+.header2 ul li {
+  background-color: black;
+}
+.header2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+.active,
+.header2 ul li:hover {
+  background-color: grey;
+  border-radius: 3px;
+}
+
+.sub-menu1 {
+  display: none;
+}
+.header2 ul li:hover .sub-menu1 {
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -8px;
+}
+.header2 ul li:hover .sub-menu1 ul {
+  display: block;
+}
+.header2 ul li:hover .sub-menu1 ul li {
+  width: 100px;
+
+  border-bottom: 1px dotted black;
+  background-color: grey;
+  border-radius: 0;
+  text-align: left;
+}
+
+.header2 ul li:hover .sub-menu1 ul li:last-child {
+  border-bottom: none;
+}
+
+.main {
+  padding-top: 120px;
+  display: flex;
+}
+.a-section {
+  padding-top: 120px;
+  display: inline-block;
+  width: 600px;
+  background-color: rgb(244, 237, 237);
+}
+.b-section {
+  display: inline-block;
+  padding-top: 130px;
+  margin-left: 10px;
+
+  position: fixed;
+}
+.big-image {
+  padding-top: 8px;
+  width: 700px;
+  height: 300px;
+}
+.main-menu1 {
+  width: 500px;
+  display: flex;
+  margin: 30px;
+  border-top: 30px;
+  background-color: white;
+}
+.one {
+  width: 300px;
+  display: inline-block;
+}
+.main-menu11 {
+  margin: 20px;
+}
+
+.details-button {
+  font-size: 15px;
+  margin: 4px;
+}
+.contact-button {
+  font-size: 15px;
+  margin: 4px;
+}
+.main-menu2 {
+  width: 500px;
+  display: flex;
+  margin: 30px;
+  background-color: white;
+}
+.two {
+  width: 300px;
+  display: inline-block;
+}
+
+.main-menu22 {
+  margin: 20px;
+}
+
+.main-menu3 {
+  width: 500px;
+  display: flex;
+  margin: 30px;
+  background-color: white;
+}
+.three {
+  width: 300px;
+  display: inline-block;
+}
+
+.main-menu33 {
+  margin: 20px;
+}
+
+.main-menu4 {
+  width: 500px;
+  display: flex;
+  margin: 30px;
+  background-color: white;
+}
+.four {
+  width: 300px;
+  display: inline-block;
+}
+
+.main-menu44 {
+  margin: 20px;
+}
+
+.main-menu5 {
+  width: 500px;
+  display: flex;
+  margin: 30px;
+  background-color: white;
+}
+.five {
+  width: 300px;
+  display: inline-block;
+}
+
+.main-menu55 {
+  margin: 20px;
+}
+.main-menu6 {
+  width: 500px;
+  display: flex;
+  margin: 30px;
+  background-color: white;
+}
+.six {
+  width: 300px;
+  display: inline-block;
+}
+
+.main-menu66 {
+  margin: 20px;
+}
+.text1 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+.text2 {
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(150, 147, 147);
+}
+.text3 {
+  font-size: 17px;
+}
+.text4 {
+  font-size: 15px;
+}
